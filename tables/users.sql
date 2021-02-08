@@ -6,7 +6,7 @@ create table users (
     last_name  VARCHAR(64),
     email      VARCHAR(64),
     description longtext,
-    password   binary
+    password   VARCHAR(64)
 );
 
 drop table users;
