@@ -9,5 +9,3 @@ create table users (
     description longtext,
     password   VARCHAR(64)
 );
-
-drop table users;
