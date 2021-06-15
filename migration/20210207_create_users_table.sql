@@ -11,7 +11,7 @@ create table users (
     dateOfBirth DATE,
     streetAddress1 VARCHAR(124),
     streetAddress2 VARCHAR(124),
-    country VARCHAR(50f),
+    country VARCHAR(50),
     zip VARCHAR(10),
     phoneNumber VARCHAR(15)
 );
